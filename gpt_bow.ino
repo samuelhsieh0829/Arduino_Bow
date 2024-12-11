@@ -25,11 +25,24 @@ void loop() {
     
       // Serial.print("X: "); Serial.println(packet.gx);
       // Serial.print("Y: "); Serial.println(packet.gy);
+      // Serial.print("Z: "); Serial.println(packet.gz);
+      // Serial.print("AX: "); Serial.println(packet.ax);
+      // Serial.print("AY: "); Serial.println(packet.ay);
+      // Serial.print("AZ: "); Serial.println(packet.az);
+      Serial.print(packet.gx); Serial.print("\t");
+      Serial.print(packet.gy); Serial.print("\t");
+      Serial.print(packet.gz); Serial.print("\t");
+      Serial.print(packet.ax); Serial.print("\t");
+      Serial.print(packet.ay); Serial.print("\t");
+      Serial.print(packet.az); Serial.println("\t");
       // Serial.print("LMB: "); Serial.println(packet.lmbPressed);
       // Serial.print("e: "); Serial.println(packet.ePressed);
 
       // 根據接收到的數據進行滑鼠操作
-      Mouse.move(-packet.gx / 70, packet.gy / 70);  // 調整數據的比例來控制移動
+      int x = packet.gx / 300;
+      int y = packet.gy / 300;
+
+      Mouse.move(-x*6, y*6);  // 調整數據的比例來控制移動
 
       // 按鈕操作
       if (packet.lmbPressed) {
