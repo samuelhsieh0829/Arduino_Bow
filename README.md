@@ -37,3 +37,11 @@
 - 將[gpt_bow.ino](https://github.com/samuelhsieh0829/Arduino_Bow/blob/main/gpt_bow.ino)燒入信號發送端
 
 ## 示範成品圖
+![image](https://github.com/samuelhsieh0829/Arduino_Bow/blob/main/IMG_4343.jpg?raw=true)
+![image](https://github.com/samuelhsieh0829/Arduino_Bow/blob/main/IMG_4345.jpg?raw=true)
+![image](https://github.com/samuelhsieh0829/Arduino_Bow/blob/main/IMG_4370.jpg?raw=true)
+![image](https://github.com/samuelhsieh0829/Arduino_Bow/blob/main/IMG_4373.jpg?raw=true)
+![image](https://github.com/samuelhsieh0829/Arduino_Bow/blob/main/IMG_4375.jpg?raw=true)
+![image](https://github.com/samuelhsieh0829/Arduino_Bow/blob/main/IMG_4376.jpg?raw=true)
+![image](https://github.com/samuelhsieh0829/Arduino_Bow/blob/main/IMG_4378.jpg?raw=true)
+![image](https://github.com/samuelhsieh0829/Arduino_Bow/blob/main/IMG_4380.jpg?raw=true)
